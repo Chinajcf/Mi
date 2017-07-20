@@ -1,0 +1,1236 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+body, html {
+  width: 1366px;
+  overflow-x: hidden; }
+
+.header-bar {
+  width: 100%; }
+  .header-bar img {
+    width: 100%;
+    display: block; }
+
+nav {
+  width: 1366px;
+  background: #333333; }
+  nav .con {
+    width: 1200px;
+    margin: 0 auto; }
+    nav .con ul {
+      float: left; }
+    nav .con .left {
+      padding: 10px 0; }
+      nav .con .left li {
+        padding: 0 12px;
+        float: left;
+        border-right: 1px solid #ccc;
+        font-size: 12px; }
+        nav .con .left li a {
+          color: #B0B0B0; }
+        nav .con .left li a:hover {
+          color: white; }
+      nav .con .left .endli {
+        border: none; }
+    nav .con .right {
+      padding: 10px 0;
+      float: right; }
+      nav .con .right li {
+        float: left;
+        padding: 0 10px;
+        color: white;
+        border-right: 1px solid #ccc;
+        font-size: 12px; }
+        nav .con .right li a {
+          color: #B0B0B0; }
+        nav .con .right li a:hover {
+          color: white; }
+      nav .con .right .gou {
+        border: none;
+        position: relative; }
+        nav .con .right .gou .kua {
+          width: 130px;
+          height: 100px;
+          background: white;
+          position: absolute;
+          top: 15px;
+          color: black;
+          border: 1px solid brown;
+          z-index: 19;
+          display: none; }
+
+.nav {
+  width: 1366px;
+  border-bottom: 1px solid #ccc; }
+  .nav .co {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+    .nav .co ul {
+      float: left;
+      padding: 22px 0; }
+    .nav .co input {
+      width: 200px;
+      height: 40px; }
+    .nav .co .fa-search {
+      display: inline-block;
+      width: 40px;
+      border: 1px solid #ccc;
+      height: 42px;
+      text-align: center;
+      line-height: 42px;
+      cursor: pointer;
+      transition: .5s; }
+    .nav .co .fa:hover {
+      transform: rotate(0deg);
+      background: orange;
+      color: white; }
+    .nav .co .lo li {
+      float: left; }
+      .nav .co .lo li img {
+        margin-right: 80px; }
+    .nav .co .con li {
+      float: left;
+      padding: 20px 0;
+      margin-right: 20px; }
+      .nav .co .con li a {
+        color: black; }
+      .nav .co .con li a:hover {
+        color: orangered; }
+      .nav .co .con li .info {
+        display: none;
+        z-index: 11;
+        position: absolute;
+        top: 105px;
+        left: -84px;
+        width: 1366px;
+        height: 230px;
+        box-shadow: 2px 2px 10px #ccc;
+        background: white;
+        padding-left: 64px; }
+        .nav .co .con li .info div {
+          cursor: pointer;
+          float: left;
+          position: relative;
+          width: 204px;
+          text-align: center; }
+          .nav .co .con li .info div .new {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            display: block;
+            width: 66px;
+            height: 22px;
+            border: 1px solid orange;
+            text-align: center;
+            line-height: 22px;
+            color: orange;
+            margin-left: -33px; }
+          .nav .co .con li .info div .img {
+            border-right: 1px solid #ccc;
+            margin-top: 40px; }
+          .nav .co .con li .info div .bor {
+            border: none; }
+          .nav .co .con li .info div .col {
+            color: orange; }
+      .nav .co .con li .foi div {
+        width: 246px; }
+    .nav .co .search {
+      float: right;
+      padding: 30px 0; }
+
+.bor {
+  border: none; }
+
+.show {
+  transition: .5s; }
+
+.show:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 20px gainsboro; }
+
+.list {
+  width: 1366px; }
+  .list .list-con {
+    width: 1200px;
+    margin: 0 auto; }
+    .list .list-con ul {
+      height: 458px;
+      background: #0d0e10;
+      float: left;
+      border: 1px solid #0d0e10;
+      position: relative; }
+      .list .list-con ul .lis {
+        width: 240px;
+        padding: 12px 20px; }
+        .list .list-con ul .lis a {
+          color: white;
+          font-size: 14px; }
+          .list .list-con ul .lis a span {
+            float: right; }
+        .list .list-con ul .lis .conte {
+          position: absolute;
+          padding: 20px;
+          left: 280px;
+          top: 0;
+          width: 600px;
+          height: 419px;
+          background: white;
+          z-index: 11;
+          display: none; }
+          .list .list-con ul .lis .conte .c-left div {
+            float: left;
+            margin: 0 10px; }
+            .list .list-con ul .lis .conte .c-left div p span {
+              margin-left: 100px;
+              display: inline-block;
+              width: 50px;
+              height: 30px;
+              border: 1px solid orangered;
+              color: orangered;
+              text-align: center;
+              line-height: 30px; }
+            .list .list-con ul .lis .conte .c-left div p span:hover {
+              background: orangered;
+              color: white; }
+            .list .list-con ul .lis .conte .c-left div p:hover {
+              color: black; }
+        .list .list-con ul .lis .conte:hover {
+          color: black; }
+      .list .list-con ul .lis:hover {
+        background: orangered;
+        color: black; }
+      .list .list-con ul li:hover {
+        color: white; }
+    .list .list-con .lunbo {
+      width: 915px;
+      height: 460px; }
+      .list .list-con .lunbo .swiper-wrapper {
+        width: 100%;
+        height: 100%; }
+        .list .list-con .lunbo .swiper-wrapper .swiper-slide {
+          width: 100%;
+          height: 100%; }
+          .list .list-con .lunbo .swiper-wrapper .swiper-slide img {
+            width: 100%;
+            height: 100%; }
+      .list .list-con .lunbo .swiper-button-prev {
+        color: white; }
+      .list .list-con .lunbo .prev:hover {
+        background: rgba(0, 0, 0, 0.5);
+        color: white; }
+      .list .list-con .lunbo .next:hover {
+        background: rgba(0, 0, 0, 0.5);
+        color: white; }
+      .list .list-con .lunbo .swiper-pagination-bullet:first-of-type {
+        margin-left: 700px; }
+      .list .list-con .lunbo .swiper-pagination-bullet {
+        background: white;
+        border: 2px solid rgba(0, 0, 0, 0.5); }
+  .list .list-con:after {
+    content: "";
+    display: block;
+    clear: both; }
+
+.list-bottom {
+  width: 1366px;
+  margin: 10px 0; }
+  .list-bottom .btm-con {
+    width: 1200px;
+    margin: 0 auto; }
+    .list-bottom .btm-con div {
+      float: left; }
+    .list-bottom .btm-con .con {
+      width: 198px;
+      height: 135px;
+      background: #5f5750;
+      padding: 15px;
+      padding-top: 20px;
+      margin-right: 4px; }
+      .list-bottom .btm-con .con ul li {
+        padding: 2px;
+        float: left;
+        text-align: center;
+        width: 60px; }
+        .list-bottom .btm-con .con ul li p {
+          font-size: 14px;
+          color: #c8c5c2; }
+          .list-bottom .btm-con .con ul li p a {
+            color: #c8c5c2; }
+      .list-bottom .btm-con .con ul .b-r {
+        border-right: 1px solid #ccc; }
+      .list-bottom .btm-con .con ul .b-r-x {
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc; }
+      .list-bottom .btm-con .con ul .b-x {
+        border-bottom: 1px solid #ccc; }
+    .list-bottom .btm-con .listlo {
+      margin: 0 4px; }
+    .list-bottom .btm-con .listl {
+      margin-left: 4px; }
+
+.star {
+  width: 1366px; }
+  .star .m-con {
+    width: 1200px;
+    margin: 30px auto; }
+    .star .m-con .tit {
+      font-size: 16px;
+      font-weight: 900; }
+      .star .m-con .tit span {
+        float: right;
+        display: inline-block;
+        width: 10px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin: 1px;
+        cursor: pointer; }
+    .star .m-con .carousel {
+      margin: 10px 0; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide div {
+        box-sizing: border-box;
+        float: left;
+        width: 220px;
+        height: 341px;
+        background: #fafafa;
+        text-align: center;
+        padding-top: 60px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide div .hi {
+          color: #ccc;
+          font-size: 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide div p {
+          margin: 10px 0;
+          font-size: 14px; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide .s_1 {
+        border-top: 2px solid red;
+        margin-right: 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide .s_1 .price {
+          color: orangered; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide .s_2 {
+        border-top: 2px solid blue;
+        margin: 0 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide .s_2 .price {
+          color: orangered; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide .s_3 {
+        border-top: 2px solid orange;
+        margin: 0 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide .s_3 .price {
+          color: orangered; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide .s_4 {
+        border-top: 2px solid yellow;
+        margin: 0 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide .s_4 .price {
+          color: orangered; }
+      .star .m-con .carousel .swiper-wrapper .swiper-slide .s_5 {
+        border-top: 2px solid lawngreen;
+        margin-left: 12px; }
+        .star .m-con .carousel .swiper-wrapper .swiper-slide .s_5 .price {
+          color: orangered; }
+
+.h-a {
+  width: 1366px;
+  background: #f5f5f5; }
+  .h-a .ct-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .h-a .ct-con .tit {
+      width: 1200px;
+      position: relative; }
+      .h-a .ct-con .tit h2 {
+        float: left; }
+      .h-a .ct-con .tit .list {
+        position: absolute;
+        left: 961px; }
+        .h-a .ct-con .tit .list span {
+          display: inline-block;
+          padding: 5px 10px;
+          border-bottom: 2px solid transparent; }
+        .h-a .ct-con .tit .list .bodr {
+          border-bottom: 2px solid red !important;
+          color: red !important; }
+    .h-a .ct-con .demo {
+      padding-top: 19px; }
+      .h-a .ct-con .demo .f {
+        float: left; }
+        .h-a .ct-con .demo .f .show {
+          margin-top: 4px; }
+      .h-a .ct-con .demo .left img {
+        width: 236px; }
+      .h-a .ct-con .demo .left div {
+        width: 230px;
+        height: 104px;
+        background: #dedede; }
+      .h-a .ct-con .demo .right ul li {
+        cursor: pointer;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 300px;
+        background: #fefefe;
+        margin: 5px;
+        text-align: center; }
+        .h-a .ct-con .demo .right ul li .fot {
+          font-size: 14px; }
+        .h-a .ct-con .demo .right ul li .col {
+          color: orangered; }
+          .h-a .ct-con .demo .right ul li .col .del {
+            text-decoration: line-through;
+            color: #ccc; }
+        .h-a .ct-con .demo .right ul li .hint {
+          font-size: 12px;
+          color: #ccc; }
+        .h-a .ct-con .demo .right ul li p {
+          margin: 10px; }
+      .h-a .ct-con .demo .right ul li.ol {
+        position: relative; }
+        .h-a .ct-con .demo .right ul li.ol .dazhe {
+          color: white;
+          background: red;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .h-a .ct-con .demo .right ul img.im {
+        margin-top: 20px; }
+      .h-a .ct-con .demo .right ul li.twoul {
+        position: relative; }
+        .h-a .ct-con .demo .right ul li.twoul .new {
+          color: white;
+          background: green;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .h-a .ct-con .demo .right ul .end {
+        background: #f5f5f5; }
+        .h-a .ct-con .demo .right ul .end .top {
+          background: white;
+          padding: 71px  0;
+          margin-top: -41px; }
+          .h-a .ct-con .demo .right ul .end .top div {
+            float: left;
+            margin-top: -33px;
+            margin-left: 10px; }
+            .h-a .ct-con .demo .right ul .end .top div .col {
+              color: orangered; }
+            .h-a .ct-con .demo .right ul .end .top div .zi {
+              font-size: 12px;
+              color: #ccc; }
+        .h-a .ct-con .demo .right ul .end .bottom {
+          background: white;
+          padding: 74px  0;
+          margin-top: 9px; }
+          .h-a .ct-con .demo .right ul .end .bottom div {
+            float: left;
+            margin-top: -33px;
+            margin-left: 10px; }
+            .h-a .ct-con .demo .right ul .end .bottom div img {
+              margin-left: 20px; }
+
+.capacity {
+  width: 1366px;
+  background: #f5f5f5; }
+  .capacity .ct-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .capacity .ct-con .tit {
+      position: relative; }
+      .capacity .ct-con .tit h2 {
+        float: left; }
+      .capacity .ct-con .tit .list {
+        position: absolute;
+        left: 907px;
+        float: right; }
+        .capacity .ct-con .tit .list span {
+          display: inline-block;
+          padding: 5px 10px;
+          border-bottom: 2px solid transparent; }
+        .capacity .ct-con .tit .list .bodr {
+          border-bottom: 2px solid red !important;
+          color: red !important; }
+    .capacity .ct-con .demo {
+      padding-top: 19px; }
+      .capacity .ct-con .demo .fo {
+        float: left; }
+        .capacity .ct-con .demo .fo div {
+          width: 234px;
+          height: 300px !important;
+          margin: 9px 0; }
+          .capacity .ct-con .demo .fo div img {
+            width: 100%;
+            height: 100%; }
+      .capacity .ct-con .demo .left {
+        margin-right: 7px;
+        margin-top: -4px; }
+        .capacity .ct-con .demo .left img {
+          width: 236px; }
+        .capacity .ct-con .demo .left div {
+          width: 230px;
+          height: 104px;
+          background: #dedede; }
+      .capacity .ct-con .demo .right ul li {
+        cursor: pointer;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 300px;
+        background: #fefefe;
+        margin: 5px;
+        text-align: center; }
+        .capacity .ct-con .demo .right ul li .fot {
+          font-size: 14px; }
+        .capacity .ct-con .demo .right ul li .col {
+          color: orangered; }
+          .capacity .ct-con .demo .right ul li .col .del {
+            text-decoration: line-through;
+            color: #ccc; }
+        .capacity .ct-con .demo .right ul li .hint {
+          font-size: 12px;
+          color: #ccc; }
+        .capacity .ct-con .demo .right ul li p {
+          margin: 10px; }
+      .capacity .ct-con .demo .right ul li.ol {
+        position: relative; }
+        .capacity .ct-con .demo .right ul li.ol .dazhe {
+          color: white;
+          background: red;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .capacity .ct-con .demo .right ul img.im {
+        margin-top: 20px; }
+      .capacity .ct-con .demo .right ul li.twoul {
+        position: relative; }
+        .capacity .ct-con .demo .right ul li.twoul .new {
+          color: white;
+          background: green;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .capacity .ct-con .demo .right ul .end {
+        background: #f5f5f5; }
+        .capacity .ct-con .demo .right ul .end .top {
+          background: white;
+          height: 144px !important;
+          margin-top: -40px; }
+          .capacity .ct-con .demo .right ul .end .top div {
+            float: left;
+            margin-top: 40px; }
+            .capacity .ct-con .demo .right ul .end .top div .col {
+              color: orangered; }
+            .capacity .ct-con .demo .right ul .end .top div .zi {
+              font-size: 12px;
+              color: #ccc; }
+            .capacity .ct-con .demo .right ul .end .top div img {
+              width: 100px;
+              height: 70px; }
+        .capacity .ct-con .demo .right ul .end .bottom {
+          margin-top: 11px;
+          height: 144px !important;
+          background: white; }
+          .capacity .ct-con .demo .right ul .end .bottom div {
+            float: left;
+            margin-top: 35px;
+            margin-left: 10px; }
+            .capacity .ct-con .demo .right ul .end .bottom div img {
+              margin-left: 20px; }
+
+.match {
+  width: 1366px;
+  background: #f5f5f5; }
+  .match .ct-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .match .ct-con .tit h2 {
+      float: left; }
+    .match .ct-con .tit .list {
+      position: absolute;
+      left: 982px;
+      float: right; }
+      .match .ct-con .tit .list span {
+        display: inline-block;
+        padding: 5px 10px;
+        border-bottom: 2px solid transparent; }
+      .match .ct-con .tit .list .bodr {
+        border-bottom: 2px solid red !important;
+        color: red !important; }
+    .match .ct-con .demo {
+      padding-top: 19px; }
+      .match .ct-con .demo .fo {
+        float: left; }
+        .match .ct-con .demo .fo div {
+          width: 234px;
+          height: 300px !important;
+          margin: 9px 0; }
+          .match .ct-con .demo .fo div img {
+            width: 100%;
+            height: 100%; }
+      .match .ct-con .demo .left {
+        margin-right: 7px;
+        margin-top: -4px; }
+        .match .ct-con .demo .left img {
+          width: 236px; }
+        .match .ct-con .demo .left div {
+          width: 230px;
+          height: 104px;
+          background: #dedede; }
+      .match .ct-con .demo .right ul li {
+        cursor: pointer;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 300px;
+        background: #fefefe;
+        margin: 5px;
+        text-align: center; }
+        .match .ct-con .demo .right ul li .fot {
+          font-size: 14px; }
+        .match .ct-con .demo .right ul li .col {
+          color: orangered; }
+          .match .ct-con .demo .right ul li .col .del {
+            text-decoration: line-through;
+            color: #ccc; }
+        .match .ct-con .demo .right ul li .hint {
+          font-size: 12px;
+          color: #ccc; }
+        .match .ct-con .demo .right ul li p {
+          margin: 10px; }
+      .match .ct-con .demo .right ul li.ol {
+        position: relative; }
+        .match .ct-con .demo .right ul li.ol .dazhe {
+          color: white;
+          background: red;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .match .ct-con .demo .right ul img.im {
+        margin-top: 20px; }
+      .match .ct-con .demo .right ul li.twoul {
+        position: relative; }
+        .match .ct-con .demo .right ul li.twoul .new {
+          color: white;
+          background: green;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .match .ct-con .demo .right ul .end {
+        background: #f5f5f5; }
+        .match .ct-con .demo .right ul .end .top {
+          background: white;
+          height: 144px !important;
+          margin-top: -40px; }
+          .match .ct-con .demo .right ul .end .top div {
+            float: left;
+            margin-top: 40px; }
+            .match .ct-con .demo .right ul .end .top div .col {
+              color: orangered; }
+            .match .ct-con .demo .right ul .end .top div .zi {
+              font-size: 12px;
+              color: #ccc; }
+            .match .ct-con .demo .right ul .end .top div img {
+              width: 100px;
+              height: 70px; }
+        .match .ct-con .demo .right ul .end .bottom {
+          margin-top: 11px;
+          height: 144px !important;
+          background: white; }
+          .match .ct-con .demo .right ul .end .bottom div {
+            float: left;
+            margin-top: 35px;
+            margin-left: 10px; }
+            .match .ct-con .demo .right ul .end .bottom div img {
+              margin-left: 20px; }
+
+.parts {
+  width: 1366px;
+  background: #f5f5f5; }
+  .parts .ct-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .parts .ct-con .tit {
+      position: relative; }
+      .parts .ct-con .tit h2 {
+        float: left; }
+      .parts .ct-con .tit .list {
+        position: absolute;
+        left: 931px;
+        float: right; }
+        .parts .ct-con .tit .list span {
+          display: inline-block;
+          padding: 5px 10px;
+          border-bottom: 2px solid transparent; }
+        .parts .ct-con .tit .list .bodr {
+          border-bottom: 2px solid red !important;
+          color: red !important; }
+    .parts .ct-con .demo {
+      padding-top: 19px; }
+      .parts .ct-con .demo .fo {
+        float: left; }
+        .parts .ct-con .demo .fo div {
+          width: 234px;
+          height: 300px !important;
+          margin: 9px 0; }
+          .parts .ct-con .demo .fo div img {
+            width: 100%;
+            height: 100%; }
+      .parts .ct-con .demo .left {
+        margin-right: 7px;
+        margin-top: -4px; }
+        .parts .ct-con .demo .left img {
+          width: 236px; }
+        .parts .ct-con .demo .left div {
+          width: 230px;
+          height: 104px;
+          background: #dedede; }
+      .parts .ct-con .demo .right ul li {
+        cursor: pointer;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 300px;
+        background: #fefefe;
+        margin: 5px;
+        text-align: center; }
+        .parts .ct-con .demo .right ul li .fot {
+          font-size: 14px; }
+        .parts .ct-con .demo .right ul li .col {
+          color: orangered; }
+          .parts .ct-con .demo .right ul li .col .del {
+            text-decoration: line-through;
+            color: #ccc; }
+        .parts .ct-con .demo .right ul li .hint {
+          font-size: 12px;
+          color: #ccc; }
+        .parts .ct-con .demo .right ul li p {
+          margin: 10px; }
+      .parts .ct-con .demo .right ul li.ol {
+        position: relative; }
+        .parts .ct-con .demo .right ul li.ol .dazhe {
+          color: white;
+          background: red;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .parts .ct-con .demo .right ul img.im {
+        margin-top: 20px; }
+      .parts .ct-con .demo .right ul li.twoul {
+        position: relative; }
+        .parts .ct-con .demo .right ul li.twoul .new {
+          color: white;
+          background: green;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .parts .ct-con .demo .right ul .end {
+        background: #f5f5f5; }
+        .parts .ct-con .demo .right ul .end .top {
+          background: white;
+          height: 144px !important;
+          margin-top: -40px; }
+          .parts .ct-con .demo .right ul .end .top div {
+            float: left;
+            margin-top: 40px; }
+            .parts .ct-con .demo .right ul .end .top div .col {
+              color: orangered; }
+            .parts .ct-con .demo .right ul .end .top div .zi {
+              font-size: 12px;
+              color: #ccc; }
+            .parts .ct-con .demo .right ul .end .top div img {
+              width: 100px;
+              height: 70px; }
+        .parts .ct-con .demo .right ul .end .bottom {
+          margin-top: 11px;
+          height: 144px !important;
+          background: white; }
+          .parts .ct-con .demo .right ul .end .bottom div {
+            float: left;
+            margin-top: 35px;
+            margin-left: 10px; }
+            .parts .ct-con .demo .right ul .end .bottom div img {
+              margin-left: 20px; }
+
+.rim {
+  width: 1366px;
+  background: #f5f5f5; }
+  .rim .ct-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .rim .ct-con .tit {
+      position: relative; }
+      .rim .ct-con .tit h2 {
+        float: left; }
+      .rim .ct-con .tit .list {
+        position: absolute;
+        left: 946px;
+        float: right; }
+        .rim .ct-con .tit .list span {
+          display: inline-block;
+          padding: 5px 10px;
+          border-bottom: 2px solid transparent; }
+        .rim .ct-con .tit .list .bodr {
+          border-bottom: 2px solid red !important;
+          color: red !important; }
+    .rim .ct-con .demo {
+      padding-top: 19px; }
+      .rim .ct-con .demo .fo {
+        float: left; }
+        .rim .ct-con .demo .fo div {
+          width: 234px;
+          height: 300px !important;
+          margin: 9px 0; }
+          .rim .ct-con .demo .fo div img {
+            width: 100%;
+            height: 100%; }
+      .rim .ct-con .demo .left {
+        margin-right: 7px;
+        margin-top: -4px; }
+        .rim .ct-con .demo .left img {
+          width: 236px; }
+        .rim .ct-con .demo .left div {
+          width: 230px;
+          height: 104px;
+          background: #dedede; }
+      .rim .ct-con .demo .right ul li {
+        cursor: pointer;
+        box-sizing: border-box;
+        float: left;
+        padding-top: 40px;
+        width: 230px;
+        height: 300px;
+        background: #fefefe;
+        margin: 5px;
+        text-align: center; }
+        .rim .ct-con .demo .right ul li .fot {
+          font-size: 14px; }
+        .rim .ct-con .demo .right ul li .col {
+          color: orangered; }
+          .rim .ct-con .demo .right ul li .col .del {
+            text-decoration: line-through;
+            color: #ccc; }
+        .rim .ct-con .demo .right ul li .hint {
+          font-size: 12px;
+          color: #ccc; }
+        .rim .ct-con .demo .right ul li p {
+          margin: 10px; }
+      .rim .ct-con .demo .right ul li.ol {
+        position: relative; }
+        .rim .ct-con .demo .right ul li.ol .dazhe {
+          color: white;
+          background: red;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .rim .ct-con .demo .right ul img.im {
+        margin-top: 20px; }
+      .rim .ct-con .demo .right ul li.twoul {
+        position: relative; }
+        .rim .ct-con .demo .right ul li.twoul .new {
+          color: white;
+          background: green;
+          width: 40px;
+          height: 20px;
+          font-size: 12px;
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          top: -10px;
+          margin-left: -20px; }
+      .rim .ct-con .demo .right ul .end {
+        background: #f5f5f5; }
+        .rim .ct-con .demo .right ul .end .top {
+          background: white;
+          height: 144px !important;
+          margin-top: -40px; }
+          .rim .ct-con .demo .right ul .end .top div {
+            float: left;
+            margin-top: 40px; }
+            .rim .ct-con .demo .right ul .end .top div .col {
+              color: orangered; }
+            .rim .ct-con .demo .right ul .end .top div .zi {
+              font-size: 12px;
+              color: #ccc; }
+            .rim .ct-con .demo .right ul .end .top div img {
+              width: 100px;
+              height: 70px; }
+        .rim .ct-con .demo .right ul .end .bottom {
+          margin-top: 11px;
+          height: 144px !important;
+          background: white; }
+          .rim .ct-con .demo .right ul .end .bottom div {
+            float: left;
+            margin-top: 35px;
+            margin-left: 10px; }
+            .rim .ct-con .demo .right ul .end .bottom div img {
+              margin-left: 20px; }
+
+.rfy {
+  width: 1366px;
+  background: #f5f5f5; }
+  .rfy .m-con {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 50px; }
+    .rfy .m-con .tit {
+      font-size: 16px;
+      font-weight: 900;
+      margin: 20px 0; }
+      .rfy .m-con .tit span {
+        float: right;
+        display: inline-block;
+        width: 10px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin: 1px;
+        cursor: pointer; }
+    .rfy .m-con .m-wr div {
+      box-sizing: border-box;
+      float: left;
+      width: 220px;
+      height: 341px;
+      background: white;
+      text-align: center;
+      padding-top: 60px; }
+      .rfy .m-con .m-wr div .hi {
+        color: #ccc;
+        font-size: 12px; }
+      .rfy .m-con .m-wr div p {
+        margin: 10px 0;
+        font-size: 14px; }
+      .rfy .m-con .m-wr div .col {
+        color: orangered; }
+      .rfy .m-con .m-wr div .ys {
+        font-size: 12px;
+        color: #ccc; }
+    .rfy .m-con .m-wr div.m1 {
+      margin-right: 12px; }
+    .rfy .m-con .m-wr div.m2 {
+      margin: 0 12px; }
+    .rfy .m-con .m-wr div.m3 {
+      margin-left: 12px; }
+
+.rev {
+  width: 1366px;
+  background: #f5f5f5; }
+  .rev .m-con {
+    width: 1200px;
+    padding-top: 50px;
+    margin: 0 auto; }
+    .rev .m-con .tit {
+      font-size: 16px;
+      font-weight: 900; }
+      .rev .m-con .tit span {
+        float: right;
+        display: inline-block;
+        width: 10px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin: 1px;
+        cursor: pointer; }
+    .rev .m-con .m-wr {
+      margin: 10px 0; }
+      .rev .m-con .m-wr div {
+        float: left;
+        height: 341px;
+        text-align: center;
+        background: white;
+        width: 279px;
+        padding-top: 0; }
+        .rev .m-con .m-wr div img {
+          width: 100%; }
+        .rev .m-con .m-wr div .hi {
+          color: #ccc;
+          font-size: 12px; }
+        .rev .m-con .m-wr div p {
+          margin-top: 10px;
+          text-align: left;
+          padding: 0px 10px;
+          font-size: 12px; }
+          .rev .m-con .m-wr div p .col {
+            color: orangered; }
+        .rev .m-con .m-wr div p.ys {
+          color: #ccc;
+          font-size: 12px; }
+        .rev .m-con .m-wr div p.y1 {
+          margin-top: 25px; }
+      .rev .m-con .m-wr div.d1 {
+        margin-right: 12px; }
+      .rev .m-con .m-wr div.d2 {
+        margin: 0 12px; }
+
+.ctto {
+  width: 1366px;
+  background: #F5F5F5; }
+  .ctto .m-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .ctto .m-con .tit {
+      font-size: 16px;
+      font-weight: 900; }
+      .ctto .m-con .tit span {
+        float: right;
+        display: inline-block;
+        width: 10px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        margin: 1px;
+        cursor: pointer; }
+    .ctto .m-con .m-wr {
+      padding-top: 20px; }
+      .ctto .m-con .m-wr .d1 {
+        border-top: 2px solid red;
+        margin-right: 12px; }
+      .ctto .m-con .m-wr .d2 {
+        border-top: 2px solid blue;
+        margin-right: 12px; }
+      .ctto .m-con .m-wr .d3 {
+        border-top: 2px solid orange;
+        margin-right: 12px; }
+      .ctto .m-con .m-wr .d4 {
+        border-top: 2px solid green;
+        margin-right: 12px; }
+      .ctto .m-con .m-wr div {
+        float: left;
+        text-align: center;
+        position: relative;
+        background: white;
+        width: 288px;
+        height: 400px;
+        padding-top: 30px; }
+        .ctto .m-con .m-wr div .dx {
+          font-size: 23px; }
+        .ctto .m-con .m-wr div .mar {
+          margin-top: 23px; }
+        .ctto .m-con .m-wr div .ys {
+          font-size: 12px;
+          color: #ccc; }
+        .ctto .m-con .m-wr div .zi {
+          font-size: 20px; }
+        .ctto .m-con .m-wr div .r {
+          color: red; }
+        .ctto .m-con .m-wr div .b {
+          color: blue; }
+        .ctto .m-con .m-wr div .b {
+          color: orange; }
+        .ctto .m-con .m-wr div .g {
+          color: green; }
+        .ctto .m-con .m-wr div .hi {
+          color: #ccc;
+          font-size: 12px; }
+        .ctto .m-con .m-wr div p {
+          margin: 10px 0;
+          font-size: 14px;
+          text-align: center;
+          padding: 0 10px; }
+        .ctto .m-con .m-wr div .ol {
+          position: absolute;
+          left: 50%;
+          margin-left: -55px; }
+          .ctto .m-con .m-wr div .ol span.bo {
+            border: 2px solid red;
+            margin-top: -2px; }
+          .ctto .m-con .m-wr div .ol span {
+            margin: 0 10px;
+            float: left;
+            display: block;
+            width: 10px;
+            height: 10px;
+            background: #ccc;
+            border-radius: 50%; }
+
+.deo {
+  width: 1366px;
+  background: #F5F5F5;
+  padding-bottom: 40px;
+  padding-top: 0px; }
+  .deo .m-con {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px; }
+    .deo .m-con .cha {
+      border: none;
+      position: relative;
+      left: 1100px;
+      top: -20px; }
+      .deo .m-con .cha span {
+        display: inline-block;
+        border-radius: 50%;
+        background: gray;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px; }
+    .deo .m-con .m-wr .mar {
+      margin-right: 12px; }
+    .deo .m-con .m-wr div {
+      float: left;
+      text-align: center;
+      position: relative;
+      background: white;
+      width: 288px;
+      height: 280px; }
+      .deo .m-con .m-wr div .col {
+        color: #ccc; }
+      .deo .m-con .m-wr div .hi {
+        color: #ccc;
+        font-size: 12px; }
+      .deo .m-con .m-wr div .video {
+        width: 100%; }
+      .deo .m-con .m-wr div .play {
+        position: relative;
+        top: -40px;
+        left: -105px; }
+      .deo .m-con .m-wr div p {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px 0; }
+
+.footer {
+  width: 1366px; }
+  .footer .f-c {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer .f-c .f-t {
+      padding: 10px 0;
+      border-bottom: 2px solid #ccc;
+      margin-top: 10px; }
+      .footer .f-c .f-t li {
+        width: 236px;
+        float: left;
+        text-align: center;
+        border-right: 1px solid #ccc;
+        font-size: 14px; }
+        .footer .f-c .f-t li img {
+          width: 15px; }
+    .footer .f-c .cen {
+      padding: 20px 0; }
+      .footer .f-c .cen div {
+        float: left; }
+      .footer .f-c .cen .right {
+        text-align: center;
+        width: 250px;
+        box-sizing: border-box;
+        padding: 10px; }
+        .footer .f-c .cen .right p {
+          margin: 5px; }
+        .footer .f-c .cen .right .ys {
+          font-size: 30px;
+          color: orangered; }
+        .footer .f-c .cen .right .orange {
+          border: 1px solid orangered;
+          width: 150px;
+          padding: 10px;
+          color: orangered;
+          margin: 0 auto; }
+        .footer .f-c .cen .right .orange:hover {
+          background: orangered;
+          color: white !important; }
+      .footer .f-c .cen .left {
+        box-sizing: border-box;
+        padding-top: 40px;
+        padding: 10px 0;
+        border-right: 2px solid #ccc; }
+        .footer .f-c .cen .left ul {
+          float: left;
+          padding: 20px 0;
+          margin-right: 100px; }
+          .footer .f-c .cen .left ul li {
+            font-size: 14px;
+            color: #757575; }
+          .footer .f-c .cen .left ul .li1 {
+            margin-bottom: 20px;
+            font-weight: 900; }
+  .footer .bot {
+    background: #fafafa; }
+    .footer .bot .b-c {
+      width: 1200px;
+      margin: 0 auto;
+      padding-top: 20px; }
+    .footer .bot .en {
+      margin: 30px auto 0;
+      font-size: 25px;
+      text-align: center;
+      padding: 30px 0;
+      color: #d2d2d2; }
+    .footer .bot .lo {
+      float: left; }
+    .footer .bot .con {
+      margin-left: 10px;
+      float: left; }
+      .footer .bot .con p {
+        font-size: 12px; }
+      .footer .bot .con .t {
+        color: #b6b0c0; }
+      .footer .bot .con .x {
+        color: #b6b0c0; }
+    .footer .bot .to {
+      margin-left: 79px;
+      float: left; }
+      .footer .bot .to li {
+        float: left; }
+      .footer .bot .to .oo div {
+        float: left;
+        font-size: 12px; }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+/*# sourceMappingURL=index.css.map */
